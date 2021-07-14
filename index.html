@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+          <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+        <div class="themeSwitch"></div>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <a href="#" class="logo">Portfolio</a>
+          <div class="selecter">
+            <div class="toggle">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- banner -->
+        <section class="banner" id="banner">
+          <div class="content">
+            <div class="imgBx">
+              <img src="user.PNG" />
+            </div>
+            <h3>Jun Ando</h3>
+            <br />
+            <h5>age:25 sex:male</h5>
+            <p>aim for web engineer</p>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>About Me</h2>
+          </div>
+          <div class="content">
+            <div class="textBox">
+              <h5></h5>
+              <p>
+                2014年に藤代高等学校卒業、その後は音楽家を目指し活動。
+                <br />
+                2018年に杏林大学保険学部臨床工学科に入学、在学中プログラミングに出会う。
+                <br />
+                2021年に家庭の事情により大学を中退、プログラミングを独学で学ぶ。
+              </p>
+              <br />
+              <h5>学習歴</h5>
+              <p>Progate:HTML,CSS,JQuery,JavaScript,Command Line,Git
+              <br />
+              その他:<a href="https://saruwakakun.com/">サルワカ</a
+              >、YouTube(セイト先生のWeb,しまぶーのIT大学,DarkCord,etc)
+              <br />
+              1冊ですべて身につくHTML&CSSとWebデザイン　入門講座　など
+							</p>
+            <br />
+            <h5>学んだ言語</h5>
+            <p>HTML,CSS,JQuery,JavaScript,processing,(C/C++)Arduino</p>
+          </div>
+        </section>
+
+        <!-- work -->
+        <section class="project adjust" id="work">
+          <div class="title">
+            <h2>Work</h2>
+            <div></div>
+          </div>
+          <div class="content">
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="work1.png" />
+              </div>
+              <a href="color.html" class="textBx">
+                <h3>For color blind design</h3>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact adjust" id="contact">
+          <div class="title">
+            <h2>Contact</h2>
+          </div>
+          <div class="contactForm">
+            <div class="row">
+              <input type="text" name="" placeholder="First Name" />
+              <input type="text" name="" placeholder="Last Name" />
+            </div>
+            <div class="row">
+              <input type="text" name="" placeholder="Email Address" />
+              <input type="text" name="" placeholder="Mobile No." />
+            </div>
+            <div class="row2">
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="row2">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </section>     
+      </div>
+    </div>
+      <script type="text/javascript" src="menu.js"></script>
+      <script type="text/javascript" src="res.js"></script>
+      <script type="text/javascript" src="Dark.js"></script>
+  </body>
+</html>
