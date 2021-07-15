@@ -1,0 +1,116 @@
+@charset "utf-8";
+body {
+  font-size: 95%;
+  color: black;
+}
+
+.flex-container img {
+  width: 64px;
+  height: 64px;
+}
+
+.flex-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container .twitterlogo {
+  width: 180px;
+  height: 64px;
+}
+
+.flex-container .soundcloudlogo {
+  width: 256px;
+  height: 64px;
+}
+
+.qostale1 img {
+  width: 900px;
+  height: 600px;
+}
+
+.member {
+  font-family: "Noto Serif JP", serif;
+  font-size: 24px;
+}
+
+#member-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.member-list-item {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menber-list-item h1 {
+  font-size: 14px;
+}
+
+.member-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+.profile {
+  font-size: 40px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.soundcloud-link {
+  text-align: center;
+}
+
+#cover {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+#modal {
+  position: absolute;
+  width: 33%;
+  left: 33%;
+  top: 20%;
+  height: auto;
+  z-index: 2;
+  display: none;
+  border-radius: 10px;
+}
+
+#edit {
+  font-family: "Noto Serif JP", serif;
+  background: white;
+}
+
+@media (max-width: 1000px) {
+  .qostale1 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .qostale1 img {
+    width: 100%;
+  }
+}
